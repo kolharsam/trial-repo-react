@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Fallback extends React.PureComponent {
+class Fallback extends React.PureComponent {
     render () {
         return (
             <React.Fragment>
@@ -11,3 +11,5 @@ export default class Fallback extends React.PureComponent {
         );
     }
 }
+
+export default Fallback;

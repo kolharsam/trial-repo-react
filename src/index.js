@@ -14,4 +14,6 @@ const Index  = () => {
     );
 }
 
+export default Index;
+
 ReactDOM.render(<Index />, document.getElementById('root'));
