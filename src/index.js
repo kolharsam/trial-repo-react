@@ -1,6 +1,17 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Fallback from './fallback';
+const App = React.lazy(() => import('./App'));
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const Index  = () => {
+    return (
+        <React.Fragment>
+            <Suspense fallback={<Fallback />}>
+                <App />
+            </Suspense>
+        </React.Fragment>
+    );
+}
+
+ReactDOM.render(<Index />, document.getElementById('root'));
