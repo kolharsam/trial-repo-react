@@ -26,5 +26,11 @@
   ],
   "devDependencies": {
     "coveralls": "^3.0.3"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/index.js"
+    ]
   }
 }
