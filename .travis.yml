@@ -10,7 +10,7 @@ script:
 deploy:
   provider: surge
   skip_cleanup: true
-  domain: stunning-seminar.surge.sh
+  domain: some-trial-app.surge.sh
   project: ./build/
 on:
   branch: master
