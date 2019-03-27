@@ -10,7 +10,7 @@ class Fallback extends React.PureComponent {
                         justifyContent: 'center', 
                         fontWeight: 800,
                         height: '100vh',
-                        width: '100%'
+                        width: '100%',
                         fontSize: '32px'
                     }}>
                     Loading...
