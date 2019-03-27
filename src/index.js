@@ -1,5 +1,6 @@
 import React, {Suspense} from 'react';
 import ReactDOM from 'react-dom';
+//style imports
 import './index.css';
 import Fallback from './fallback';
 const App = React.lazy(() => import('./App'));
