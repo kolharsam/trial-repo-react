@@ -9,6 +9,8 @@ class Fallback extends React.PureComponent {
                         alignItems: 'center', 
                         justifyContent: 'center', 
                         fontWeight: 800,
+                        height: '100vh',
+                        width: '100%'
                         fontSize: '32px'
                     }}
                 >
