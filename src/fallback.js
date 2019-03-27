@@ -5,10 +5,12 @@ class Fallback extends React.PureComponent {
         return (
             <React.Fragment>
                 <div style={{
-                    display: 'flex', 
-                    alignItems: 'center', 
-                    justifyContent: 'center', 
-                    fontWeight: 800}}
+                        display: 'grid', 
+                        alignItems: 'center', 
+                        justifyContent: 'center', 
+                        fontWeight: 800,
+                        fontSize: '32px'
+                    }}
                 >
                     Loading...
                 </div>
