@@ -12,8 +12,7 @@ class Fallback extends React.PureComponent {
                         height: '100vh',
                         width: '100%'
                         fontSize: '32px'
-                    }}
-                >
+                    }}>
                     Loading...
                 </div>
             </React.Fragment>
