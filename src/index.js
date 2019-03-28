@@ -5,7 +5,7 @@ import './index.css';
 import Fallback from './fallback';
 const App = React.lazy(() => import('./App'));
 
-class Index extends React.Component {
+class Index extends React.PureComponent {
     render () {
         return (
             <React.Fragment>
