@@ -1,4 +1,4 @@
-import React, {Suspense} from 'react';
+import React, {Suspense, Fragment} from 'react';
 import ReactDOM from 'react-dom';
 //style imports
 import './index.css';
@@ -8,11 +8,11 @@ const App = React.lazy(() => import('./App'));
 class Index extends React.PureComponent {
     render () {
         return (
-            <React.Fragment>
+            <Fragment>
                 <Suspense fallback={<Fallback />}>
                     <App />
                 </Suspense>
-            </React.Fragment>
+            </Fragment>
         );
     }
 }
